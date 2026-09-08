@@ -1,0 +1,326 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Portafolio de Yeriel de la Cruz, director creativo multimedia para artistas, figuras públicas, marcas, empresas y negocios.">
+  <title>Yeriel de la Cruz — Multimedia Creative Director</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@600;700;800;900&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="entry-gate" id="entry-gate" role="dialog" aria-modal="true" aria-labelledby="entry-title" hidden>
+    <div class="entry-panel">
+      <div class="entry-topline">
+        <span class="entry-logo"><img src="assets/yeriel-logo.png" alt=""></span>
+        <span>YDC / PORTFOLIO</span>
+      </div>
+      <p class="entry-kicker">La experiencia comienza aquí</p>
+      <h2 id="entry-title">¿Entramos<br>con sonido?</h2>
+      <div class="entry-actions">
+        <button class="button primary" id="enter-with-music" type="button">Entrar con música</button>
+        <button class="button ghost" id="enter-without-music" type="button">Entrar sin música</button>
+      </div>
+    </div>
+  </div>
+  <audio id="site-audio" src="assets/site-audio.mp3" preload="auto"></audio>
+  <button class="music-toggle" id="music-toggle" type="button" aria-pressed="false" aria-label="Activar música">
+    <span class="music-bars" aria-hidden="true"><i></i><i></i><i></i></span>
+    <span class="music-label" aria-live="polite">Sonido</span>
+  </button>
+  <div class="scroll-progress" aria-hidden="true"><span></span></div>
+  <header class="topbar">
+    <a class="brand" href="#inicio" aria-label="Ir al inicio">
+      <span class="brand-mark"><img src="assets/yeriel-logo.png" alt=""></span>
+      <span>YERIEL DE LA CRUZ</span>
+    </a>
+    <button class="menu-button" type="button" aria-expanded="false" aria-controls="site-nav">
+      <span>Menú</span><i aria-hidden="true"></i>
+    </button>
+    <nav id="site-nav" aria-label="Navegación principal">
+      <a href="#trabajo">Trabajo</a>
+      <a href="#servicios">Servicios</a>
+      <a href="#planes">Planes</a>
+      <a class="nav-cta" href="#contacto">Hablemos</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="signal"></span> Disponible para nuevos proyectos</p>
+        <h1>No creo contenido.<br><span>Construyo presencia.</span></h1>
+        <p class="hero-lede">Dirección creativa y contenido visual para artistas, figuras públicas, marcas, empresas y negocios.</p>
+        <div class="profile-stats" aria-label="Perfil creativo">
+          <span><strong>CREO</strong> contenido</span>
+          <span><strong>DIRIJO</strong> imagen</span>
+          <span><strong>CONSTRUYO</strong> presencia</span>
+        </div>
+        <div class="hero-actions">
+          <a class="button primary" href="#trabajo">Ver trabajo</a>
+          <a class="button ghost" href="#planes">Explorar planes</a>
+        </div>
+      </div>
+      <aside class="hero-card" aria-label="Perfil profesional">
+        <div class="portrait-stage" data-asset="portrait">
+          <img src="assets/yeriel-portrait.png" alt="Yeriel de la Cruz con cámara Sony" fetchpriority="high">
+        </div>
+        <div class="hero-card-footer">
+          <span>Multimedia<br>Creative Director</span>
+          <span>RD · Disponible<br>para viajar</span>
+        </div>
+      </aside>
+    </section>
+
+    <section class="statement" aria-label="Propuesta de valor">
+      <p>ESTRATEGIA <span>×</span> PRODUCCIÓN <span>×</span> IDENTIDAD <span>×</span> PRESENCIA</p>
+    </section>
+
+    <section class="section" id="trabajo">
+      <div class="section-heading">
+        <p class="section-number">01 / PORTAFOLIO</p>
+        <h2>Trabajo que habla<br>antes que yo.</h2>
+        <p class="section-intro">Una selección de imágenes, campañas y piezas creadas para conectar, posicionar y permanecer.</p>
+      </div>
+
+      <div class="category-grid">
+        <a class="category-card category-wide" href="#reels" aria-label="Ir a contenido para redes">
+          <div>
+            <p class="card-index">01</p>
+            <h3>Contenido para redes</h3>
+            <p>Reels y piezas verticales pensadas para detener el scroll y sostener una identidad.</p>
+          </div>
+          <span class="card-tag">#REELS</span>
+        </a>
+        <a class="category-card" href="#fotos" aria-label="Ir a fotografía">
+          <div>
+            <p class="card-index">02</p>
+            <h3>Fotografía</h3>
+            <p>Retratos, campañas y cobertura con intención visual.</p>
+          </div>
+          <span class="card-arrow">↗</span>
+        </a>
+        <a class="category-card dark-card" href="#musica" aria-label="Ir a videos musicales">
+          <div>
+            <p class="card-index">03 <span class="inline-new">NUEVO</span></p>
+            <h3>Videos musicales</h3>
+            <p>Concepto, producción y lenguaje visual para cada canción.</p>
+          </div>
+          <span class="card-arrow">▶</span>
+        </a>
+      </div>
+
+      <div class="reels-section" id="reels">
+        <div class="subheading-row">
+          <h3>Contenido para redes</h3>
+          <span>#REELS · Selección de proyectos</span>
+        </div>
+        <div class="reels-grid">
+          <article class="reel-card">
+            <div class="reel-frame"><iframe src="https://drive.google.com/file/d/1tk1jjtGIBmktZCNWtPz7dqtpMnbmUd1T/preview" title="Bachata en Santo Domingo" loading="lazy" allow="autoplay; fullscreen" allowfullscreen></iframe></div>
+            <div class="reel-meta"><span>Contenido para redes</span><h4>Bachata en Santo Domingo</h4></div>
+          </article>
+          <article class="reel-card">
+            <div class="reel-frame"><iframe src="https://drive.google.com/file/d/1_pujsnrOif-0IbadKA1aK4289xZe3zQT/preview" title="Bipolar — contenido" loading="lazy" allow="autoplay; fullscreen" allowfullscreen></iframe></div>
+            <div class="reel-meta"><span>Contenido para redes</span><h4>Bipolar</h4></div>
+          </article>
+          <article class="reel-card">
+            <div class="reel-frame"><iframe src="https://drive.google.com/file/d/1ez2LqDIxzgwDat4j5IdRv_UZyjXm-TjY/preview" title="1 Vez — JZ" loading="lazy" allow="autoplay; fullscreen" allowfullscreen></iframe></div>
+            <div class="reel-meta"><span>Contenido para redes</span><h4>1 Vez · JZ</h4></div>
+          </article>
+          <article class="reel-card">
+            <div class="reel-frame"><iframe src="https://drive.google.com/file/d/1ad-tQ9e581zrVqAzXIjI0tQmf3i9O1fV/preview" title="Marco Polo — contenido" loading="lazy" allow="autoplay; fullscreen" allowfullscreen></iframe></div>
+            <div class="reel-meta"><span>Contenido para redes</span><h4>Marco Polo</h4></div>
+          </article>
+          <article class="reel-card">
+            <div class="reel-frame"><iframe src="https://drive.google.com/file/d/1bj1i--_slp_D_APkvMSiLNXaoyldp6iW/preview" title="Dani — contenido" loading="lazy" allow="autoplay; fullscreen" allowfullscreen></iframe></div>
+            <div class="reel-meta"><span>Contenido para redes</span><h4>Dani</h4></div>
+          </article>
+          <article class="reel-card">
+            <div class="reel-frame"><iframe src="https://drive.google.com/file/d/1WOd3BQODNu_XfLinBHT7q6BM3Nw2jkx5/preview" title="Complot — contenido" loading="lazy" allow="autoplay; fullscreen" allowfullscreen></iframe></div>
+            <div class="reel-meta"><span>Contenido para redes</span><h4>Complot</h4></div>
+          </article>
+          <article class="reel-card">
+            <div class="reel-frame"><iframe src="https://drive.google.com/file/d/1JOlwVKJr0SYmnsBXPvlBU3GGnCsF3AiR/preview" title="Rolly — OTW 04" loading="lazy" allow="autoplay; fullscreen" allowfullscreen></iframe></div>
+            <div class="reel-meta"><span>Contenido para redes</span><h4>Rolly · OTW 04</h4></div>
+          </article>
+          <article class="reel-card">
+            <div class="reel-frame"><iframe src="https://drive.google.com/file/d/1StVwsfrSat5t1PudbmLGMAHG1ipW2Y0g/preview" title="Rolly — OTW contenido" loading="lazy" allow="autoplay; fullscreen" allowfullscreen></iframe></div>
+            <div class="reel-meta"><span>Contenido para redes</span><h4>Rolly · OTW</h4></div>
+          </article>
+          <article class="reel-card">
+            <div class="reel-frame"><iframe src="https://drive.google.com/file/d/1D-ZWotTVh0jOFJDSRanT-jpRGOGZCy4m/preview" title="Obra de Arte — promo" loading="lazy" allow="autoplay; fullscreen" allowfullscreen></iframe></div>
+            <div class="reel-meta"><span>Contenido promocional</span><h4>Obra de Arte</h4></div>
+          </article>
+          <article class="reel-card">
+            <div class="reel-frame"><iframe src="https://drive.google.com/file/d/1BVbCMzuGT2-4isFLmBZUBmJlZV_HovFF/preview" title="Crystal — detrás de cámara" loading="lazy" allow="autoplay; fullscreen" allowfullscreen></iframe></div>
+            <div class="reel-meta"><span>Detrás de cámara</span><h4>Crystal</h4></div>
+          </article>
+        </div>
+      </div>
+
+      <div class="photo-section" id="fotos">
+        <div class="subheading-row">
+          <h3>Fotografía</h3>
+          <span>Una sola colección</span>
+        </div>
+        <details class="photo-folder" open>
+          <summary><span>Carpeta</span><strong>Todas las fotos</strong><span class="folder-arrow">⌄</span></summary>
+          <div class="photo-grid" id="photo-grid" aria-label="Colección completa de trabajos fotográficos"></div>
+        </details>
+      </div>
+
+      <div class="music-section" id="musica">
+        <div class="subheading-row">
+          <h3>Videos musicales <span class="heading-new">NUEVO</span></h3>
+          <span>Dirección y producción audiovisual</span>
+        </div>
+        <div class="video-grid" aria-label="Selección de videos musicales">
+          <article class="video-project">
+            <a class="video-link" href="https://www.youtube.com/watch?v=YH6Qex_xuO4" target="_blank" rel="noreferrer">Ver en YouTube ↗</a>
+            <a class="thumbnail-link" href="https://www.youtube.com/watch?v=YH6Qex_xuO4" target="_blank" rel="noreferrer" aria-label="Ver Puto Amor en YouTube">
+              <img src="https://img.youtube.com/vi/YH6Qex_xuO4/maxresdefault.jpg" alt="Miniatura del video musical Puto Amor" loading="lazy">
+              <span class="play-button" aria-hidden="true">▶</span>
+            </a>
+            <h4>Puto Amor</h4>
+            <p>Luis Caracter, Fortuna La Super F, Fara-On</p>
+          </article>
+          <article class="video-project">
+            <a class="video-link" href="https://www.youtube.com/watch?v=zZ-Vg9XwXtY" target="_blank" rel="noreferrer">Ver en YouTube ↗</a>
+            <a class="thumbnail-link" href="https://www.youtube.com/watch?v=zZ-Vg9XwXtY" target="_blank" rel="noreferrer" aria-label="Ver Bipolar en YouTube">
+              <img src="https://img.youtube.com/vi/zZ-Vg9XwXtY/maxresdefault.jpg" alt="Miniatura del video musical Bipolar" loading="lazy">
+              <span class="play-button" aria-hidden="true">▶</span>
+            </a>
+            <h4>Bipolar</h4>
+            <p>JZTA</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section services" id="servicios">
+      <div class="section-heading compact">
+        <p class="section-number">02 / SERVICIOS</p>
+        <h2>Una imagen no se improvisa.</h2>
+      </div>
+      <div class="service-list">
+        <article class="service-row">
+          <span class="service-number">01</span>
+          <div><h3>Dirección creativa</h3><p>Concepto, narrativa y consistencia visual.</p></div>
+          <span class="service-status">ESENCIAL</span>
+        </article>
+        <article class="service-row">
+          <span class="service-number">02</span>
+          <div><h3>Contenido para redes</h3><p>Reels, fotografía y piezas para campañas.</p></div>
+          <span class="service-status">ACTIVO</span>
+        </article>
+        <article class="service-row">
+          <span class="service-number">03</span>
+          <div><h3>Clips para streaming</h3><p>Directos, entrevistas y podcasts convertidos en clips cortos.</p></div>
+          <span class="new-badge">NUEVO</span>
+        </article>
+        <article class="service-row">
+          <span class="service-number">04</span>
+          <div><h3>Flyers</h3><p>Diseño promocional para lanzamientos, eventos y campañas.</p></div>
+          <span class="new-badge">NUEVO</span>
+        </article>
+        <article class="service-row">
+          <span class="service-number">05</span>
+          <div><h3>Identidad visual y branding</h3><p>Sistemas visuales para marcas que necesitan reconocerse.</p></div>
+          <span class="new-badge">NUEVO</span>
+        </article>
+        <article class="service-row">
+          <span class="service-number">06</span>
+          <div><h3>Portadas para plataformas digitales</h3><p>Arte visual para sencillos, álbumes y lanzamientos musicales.</p></div>
+          <span class="badge-group"><span class="available-badge">DISPONIBLE</span><span class="new-badge">NUEVO</span></span>
+        </article>
+        <article class="service-row">
+          <span class="service-number">07</span>
+          <div><h3>Manejo de redes y campañas</h3><p>Planificación, publicación, seguimiento y gestión publicitaria.</p></div>
+          <span class="service-status">360°</span>
+        </article>
+      </div>
+    </section>
+
+    <section class="section pricing" id="planes">
+      <div class="section-heading compact">
+        <p class="section-number">03 / SUSCRIPCIONES</p>
+        <h2>Tu presencia,<br>sin pausas.</h2>
+        <p class="section-intro">Un sistema creativo continuo para cuidar la imagen de artistas, figuras públicas, marcas, empresas y negocios.</p>
+      </div>
+      <div class="pricing-grid">
+        <article class="price-card">
+          <p class="plan-label">01 / PULSO</p>
+          <div class="price"><span>US$</span>80</div>
+          <p class="period">por semana</p>
+          <ul>
+            <li>3 reels semanales</li>
+            <li>5 fotografías</li>
+            <li>Dirección visual</li>
+          </ul>
+          <a class="button plan-button plan-select" data-plan="Pulso · US$80 por semana" href="mailto:yerieldela18@gmail.com?subject=Me%20interesa%20el%20plan%20Pulso">Elegir Pulso</a>
+        </article>
+        <article class="price-card featured">
+          <p class="plan-label">02 / IMPACTO <span>POPULAR</span></p>
+          <div class="price"><span>US$</span>120</div>
+          <p class="period">por semana</p>
+          <ul>
+            <li>5 reels semanales</li>
+            <li>5 fotografías</li>
+            <li>Dirección visual</li>
+          </ul>
+          <a class="button plan-button light plan-select" data-plan="Impacto · US$120 por semana" href="mailto:yerieldela18@gmail.com?subject=Me%20interesa%20el%20plan%20Impacto">Elegir Impacto</a>
+        </article>
+        <article class="price-card total">
+          <p class="plan-label">03 / PRESENCIA 360</p>
+          <div class="price"><span>US$</span>600</div>
+          <p class="period">por mes</p>
+          <ul>
+            <li>4 reels por semana</li>
+            <li>10 fotografías mensuales</li>
+            <li>Publicación y manejo de redes</li>
+            <li>Gestión de campañas publicitarias</li>
+            <li>Atención prioritaria</li>
+          </ul>
+          <a class="button plan-button plan-select" data-plan="Presencia 360 · US$600 por mes" href="mailto:yerieldela18@gmail.com?subject=Me%20interesa%20el%20plan%20Presencia%20360">Elegir Presencia 360</a>
+        </article>
+      </div>
+      <p class="pricing-note">La inversión en pauta publicitaria no está incluida. Se define según los objetivos de cada campaña.</p>
+    </section>
+
+    <section class="contact" id="contacto">
+      <p class="section-number">04 / CONTACTO</p>
+      <h2>Si tu imagen va a hablar,<br><span>que diga algo distinto.</span></h2>
+      <div class="contact-row">
+        <a href="https://instagram.com/yeriel.raw" target="_blank" rel="noreferrer">@yeriel.raw ↗</a>
+        <a href="mailto:yerieldela18@gmail.com">yerieldela18@gmail.com ↗</a>
+      </div>
+    </section>
+  </main>
+
+  <dialog class="contact-dialog" id="contact-dialog" aria-labelledby="dialog-plan">
+    <button class="dialog-close" type="button" data-close-dialog aria-label="Cerrar ventana">×</button>
+    <p class="dialog-kicker">Proyecto seleccionado</p>
+    <h3 id="dialog-plan">Hablemos de tu proyecto</h3>
+    <p class="dialog-copy">Cuéntame qué quieres construir y coordinamos los próximos pasos.</p>
+    <div class="dialog-actions">
+      <a class="button primary" id="dialog-email" href="mailto:yerieldela18@gmail.com">Enviar correo ↗</a>
+      <a class="button ghost" href="https://instagram.com/yeriel.raw" target="_blank" rel="noreferrer">Escribir por Instagram ↗</a>
+    </div>
+  </dialog>
+
+  <dialog class="photo-viewer" id="photo-viewer" aria-label="Vista ampliada de fotografía">
+    <button class="dialog-close" type="button" data-close-photo aria-label="Cerrar fotografía">×</button>
+    <img id="viewer-image" src="" alt="">
+  </dialog>
+
+  <footer>
+    <span>© <span id="year"></span> Yeriel de la Cruz</span>
+    <span>República Dominicana</span>
+  </footer>
+  <script src="drive-gallery.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
